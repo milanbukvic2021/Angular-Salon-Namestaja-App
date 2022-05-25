@@ -1,0 +1,65 @@
+<app-divider>Table Component1 </app-divider>
+<app-table class="striped called" [data1]='data1' [headers1]='headers1'></app-table>
+
+<app-divider>Tab Menu1</app-divider>
+
+<app-tabs>
+  <div id="small-text">NG Content of Tabs</div>
+  <a
+  class="item" routerLink='./' routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"
+  >Biography</a>
+
+  <a class="item" routerLink= './companies1' routerLinkActive="active"  
+  >Companies</a>
+
+  <a class="item" routerLink='./partners1' routerLinkActive="active">Partners</a>
+
+</app-tabs>
+
+
+
+<!-----------------------------------------
+<app-divider>Table Component</app-divider>
+<app-table class="striped celled" [data]="data1" [headers]="headers1"></app-table>
+
+<app-divider>Tab Menu</app-divider>
+<app-tabs>
+  <a
+    class="item"
+    routerLink="./"
+    routerLinkActive="active"
+    [routerLinkActiveOptions]="{ exact: true }"
+    >Biography</a
+  >
+  <a class="item" routerLink="./companies" routerLinkActive="active"
+    >Companies</a
+  >
+  <a class="item" routerLink="./partners" routerLinkActive="active">Partners</a>
+</app-tabs>
+>
+
+
+
+<app-divider>Table Component</app-divider>
+<app-table class="striped celled" [data]="data" [headers]="headers"></app-table>
+
+<app-divider>Tab Menu</app-divider>
+<div class="ui grid">
+  <div class="four wide column">
+    <div class="ui vertical fluid tabular menu">
+      <a class="item" routerLink="" routerLinkActive="active">Biography</a>
+      <a class="item" routerLink="companies" routerLinkActive="companies"
+        >Companies</a
+      >
+      <a class="item" routerLink="partners" routerLinkActive="partners"
+        >Partners</a
+      >
+    </div>
+  </div>
+  <div class="twelve wide stretched column">
+    <div class="ui segment">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
+-->

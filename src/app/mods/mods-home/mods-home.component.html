@@ -1,0 +1,17 @@
+
+
+<app-divider>Modal Component</app-divider>
+<button (click)="onClick1()">Show Modal</button>
+<app-modal (close1)="onClick1()" *ngIf="modalOpen"></app-modal>
+
+<div class="container">Click the text box next to the jump size you want to change in the "Jump sizes" section. Type the length of time, in seconds, that you want to set as the skip length. Repeat the process for all of the skip lengths that you want to change.</div>
+
+
+
+
+
+<app-divider>Modal Component</app-divider>
+<button (click)="onClick()">Show Modal</button>
+<app-modal (close1)="onClick()" *ngIf="modalOpen"></app-modal>
+
+<div class="container">Click the text box next to the jump size you want to change in the "Jump sizes" section. Type the length of time, in seconds, that you want to set as the skip length. Repeat the process for all of the skip lengths that you want to change.</div>

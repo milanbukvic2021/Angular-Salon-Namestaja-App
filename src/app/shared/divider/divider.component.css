@@ -1,0 +1,7 @@
+:host:not(:first-of-type) {
+  display: block;
+  margin-top: 10px;
+}
+#divider {
+  font-style: italic;
+}
